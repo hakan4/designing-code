@@ -1,0 +1,20 @@
+{
+  "name": "code-tutorials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js --timeout 500"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.0.4",
+    "chai": "^4.1.2",
+    "sinon": "^4.3.0",
+    "sinon-chai": "^2.14.0"
+  },
+  "dependencies": {
+    "awilix": "^3.0.9"
+  }
+}
